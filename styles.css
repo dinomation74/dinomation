@@ -1,0 +1,81 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+    height: 350px;
+    background-image:url('https://mail.google.com/mail/u/1/?ui=2&ik=0a5e1327ee&view=fimg&th=162ff7663193d776&attid=0.1&disp=emb&attbid=ANGjdJ8wnaTbVNOBltSZV0M6j6BDt1lV8EheOpQ-oSFIjZxXhKFR3sygm0zXwjCI824moBV4qOv20MZGdYMNJ01lYXiptcp-Ob8_PPVX1QyHUPa4ozyCI0PpgsNm4Sg&sz=s0-l75-ft&ats=1524704385050&rm=162ff7663193d776&zw&atsh=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    position: relative;
+}
+            .container h1 {
+                color: #ff6e00;
+                text-align: center;
+            }
+            .container button {
+                padding: 25px;
+                font-size: 24px;
+                background-color: #ff6919;
+            }
+            /* Absolute Alignment in Hero */
+            .container .content {
+               position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+            }
+            /* Change Button */
+            button {
+                color: black;   
+                text-decoration: none;
+            }
+                button a.hide {
+                    display: none;
+                }
+                button:hover a.hide {
+                    display: block;
+                }
+                button a.show {
+                    display: block;
+                }
+                button:hover a.show {
+                    display: none;
+                }
+                button:hover {
+                    font-size: 50px;
+                    color: blue;
+                }
+            
+            .container p{
+                color: #ff7f1e;
+                
+            }
+            .background-image {
+                background-image: url("https://img00.deviantart.net/c275/i/2012/222/0/c/orange_gradient_by_ohsnapjenny-d5an26q.jpg");
+            }
+            .section-two,
+            .section-three {
+                margin: 75px;
+                
+            }
+.example-image {
+    width: 300px;
+    height: 300px;
+    border: 15px ridge #ff7f1e;
+}
+.section-two button{
+                padding: 25px;
+                font-size: 24px;
+                background-color: #ff6919;  
+}
+
+/* Example Photo Gallery styles */
+
+ul.example-photos {
+    list-style: none;
+    display: block;
+    padding: 0;
+}
+ul.example-photos li {
+     list-style-type: none; 
+    display: inline-block;
+}
