@@ -2,7 +2,7 @@
     margin: 0 auto;
     text-align: center;
     height: 350px;
-    background-image:url('image_01 (8).png');
+    background-image:url('logo.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 400px;
@@ -12,7 +12,7 @@
                 color: #ff6e00;
                 text-align: center;
             }
-            .container button {
+            .contact-link, .insta-link {
                 padding: 25px;
                 font-size: 24px;
                 background-color: #ff6919;
@@ -79,3 +79,21 @@ ul.example-photos li {
      list-style-type: none; 
     display: inline-block;
 }
+
+
+ button a.hide {
+                    display: none;
+                }
+                button:hover a.don {
+                    display: block;
+                }
+                button a.don- {
+                    display: block;
+                }
+                button:hover a.don- {
+                    display: none;
+                }
+                button:hover {
+                    font-size: 50px;
+                    color: blue;
+                }
