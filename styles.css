@@ -1,21 +1,29 @@
 .container {
     margin: 0 auto;
-    text-align: center;
+    text-align: right;
     height: 350px;
-    background-image:url('logo.png');
+    background-image:url('');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 400px;
     position: relative;
 }
+
+ /* <button class="contact-link">
+                     <a href="mylife.html" class="show">Submit here</a>
+                     <a href="mylife.html" class="hide">Click Now ;)</a>
+                   </button>*/
+
+
             .container h1 {
-                color: #ff6e00;
+                color: white;
                 text-align: center;
+                font-family: "Comic Sans MS", cursive, sans-serif;
             }
             .contact-link, .insta-link {
                 padding: 25px;
                 font-size: 24px;
-                background-color: #ff6919;
+                background-color: black;
             }
             /* Absolute Alignment in Hero */
             .container .content {
@@ -46,11 +54,20 @@
                 }
             
             .container p{
-                color: #ff7f1e;
-                
+                color:black;
+              text-align: left;
+                font-family: "Courier New", Courier, monospace;
+                font-size: 18
             }
             .background-image {
-                background-image: url("https://img00.deviantart.net/c275/i/2012/222/0/c/orange_gradient_by_ohsnapjenny-d5an26q.jpg");
+                background-image: url("background.png");
+                background-position: center;
+    background-repeat: no-repeat;
+                 margin: 0 auto;
+    text-align: center;
+    height: 350px;
+                 background-size: 400px;
+    position: relative;
             }
             .section-two,
             .section-three {
@@ -60,12 +77,12 @@
 .example-image {
     width: 300px;
     height: 300px;
-    border: 15px ridge #ff7f1e;
+    border: 15px ridge #b642f4;
 }
 .section-two button{
                 padding: 25px;
                 font-size: 24px;
-                background-color: #ff6919;  
+                background-color: #b642f4;  
 }
 
 /* Example Photo Gallery styles */
@@ -97,3 +114,128 @@ ul.example-photos li {
                     font-size: 50px;
                     color: blue;
                 }
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+ 
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+    background-color: white;
+}
+ 
+header {
+      width: 10%;
+      height: 10vh;
+      background: url() no-repeat 50% 50%;
+      background-size: cover;
+}
+ 
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+ 
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+ 
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+ 
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: white;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+ 
+nav.black ul {
+      background: #b642f4;
+}
+ 
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+ 
+nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+}
+ 
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: white;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: black;
+      display: none;
+}
+ 
+@media(max-width: 786px) {
+ 
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+ 
+      nav ul {
+            max-height: 0px;
+            background: white;
+      }
+ 
+      nav.black ul {
+            background: white;
+      }
+ 
+      .showing {
+            max-height: 34em;
+      }
+ 
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+ 
+      .menu-icon {
+            display: block;
+      }
+ 
+}
+body {
+    background: linear-gradient(to top, #b642f4 13%, #000000 70%);
+    background-repeat: no-repeat;
+}
+
+.message{
+    color: white;
+}

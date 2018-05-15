@@ -10,24 +10,87 @@
 <link rel="mask-icon" href="logo.png" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+        <!--https://img00.deviantart.net/c275/i/2012/222/0/c/orange_gradient_by_ohsnapjenny-d5an26q.jpg-->
+        
+       <!-- new top code-->
+        <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Responsive Sticky Navbar</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     </head>
     <body>
+        <div class="wrapper">
         <header>
-            <h1>Charles Mitchell</h1>
-            <nav>
-                <a href=""></a>
-            </nav>
+          <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              ReiMagination INK
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="submitfrom.html">Submit</a></li>
+                                    <li><a href="mylife.html">Contact</a></li>
+                              </ul>
+                        </div>
+                  </nav>
         </header>
         
-        <div class="background-image">
+        <!--div class="content">
+                  <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                  <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+            </div-->
+      </div>
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+            
+            
+            <!-- new code wrap-->
+            
+            
+            <div class="background-image">
             <div class="container">
                <div class="content">
                  <h1>ReiMagination INK.</h1>
-                 <p>domination of photo recreation</p>
-                 <button class="contact-link">
-                     <a href="mylife.html" class="show">Submit here</a>
-                     <a href="mylife.html" class="hide">Click Now ;)</a>
-                </button>
+                   <p>This is the page that recreates you photos in cartoon form. </p>
+                     
+              
                </div>
             </div>
         </div>
