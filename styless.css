@@ -10,13 +10,12 @@ body {
 }
  
 header {
-      width: 63%;
-      height: 75vh;
-      background: url(logo.png) no-repeat 50% 50%;    
-     background-position: center;
-    position: relative;
+      width: 100%;
+      height: 100vh;
+      background: url( bvb-repeat 50% 50%;
+      background-size: cover;
 }
- 
+
 .content {
       width: 94%;
       margin: 4em auto;
@@ -34,7 +33,6 @@ header {
       font-weight: bold;
       font-size: 20px;
       letter-spacing: 2px;
-    font-family:"Comic Sans MS", cursive, sans-serif;
 }
  
 nav {
@@ -57,7 +55,7 @@ nav ul {
 }
  
 nav.black ul {
-      background: #b642f4;
+      background: #000;
 }
  
 nav ul li {
@@ -116,36 +114,20 @@ nav ul li a {
       }
  
 }
-body {
-    background: linear-gradient(to top, #b642f4 13%, #000000 70%);
-    background-repeat: no-repeat;
+body, html {
+    height: 100%;
 }
 
-.message{
-    color: white;
-}
 .parallax {
     /* The image used */
-    background-image: url("img_parallax.jpg");
+    background-image: url('background.png');
 
-    /* Set a specific height */
-    min-height: 500px; 
+    /* Full height */
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.shaun{
-    width:500px;
-    height: 500px;
-    border: 15px ridge black
-}
-.text{
-    color:#b642f4;
-    text-align:justify;
-      font-size: 25px;
-      line-height: 30px;
-        
 }

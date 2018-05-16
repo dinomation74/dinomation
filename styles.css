@@ -1,11 +1,11 @@
 .container {
     margin: 0 auto;
     text-align: right;
-    height: 350px;
+    height: 650px;
     background-image:url('');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 400px;
+    background-size: 500px;
     position: relative;
 }
 
@@ -57,7 +57,7 @@
                 color:black;
               text-align: left;
                 font-family: "Courier New", Courier, monospace;
-                font-size: 18
+                font-size: 12
             }
             .background-image {
                 background-image: url("background.png");
@@ -150,6 +150,7 @@ header {
       font-weight: bold;
       font-size: 20px;
       letter-spacing: 2px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
 }
  
 nav {
@@ -238,4 +239,35 @@ body {
 
 .message{
     color: white;
+}
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
