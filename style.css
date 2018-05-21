@@ -57,7 +57,7 @@ nav ul {
 }
  
 nav.black ul {
-      background: #b642f4;
+      background: #ff6600;
 }
  
 nav ul li {
@@ -117,7 +117,7 @@ nav ul li a {
  
 }
 body {
-    background: linear-gradient(to top, #b642f4 13%, #000000 70%);
+    background: linear-gradient(to bottom, #000000 27%, #ff6600 100%);
     background-repeat: no-repeat;
 }
 
@@ -143,7 +143,7 @@ body {
     border: 15px ridge black
 }
 .text{
-    color:#b642f4;
+    color:#ff6600;
     text-align:justify;
       font-size: 25px;
       line-height: 30px;

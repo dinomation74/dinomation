@@ -50,7 +50,7 @@
                 }
                 button:hover {
                     font-size: 50px;
-                    color: blue;
+                    color: black;
                 }
             
             .container p{
@@ -77,12 +77,12 @@
 .example-image {
     width: 300px;
     height: 300px;
-    border: 15px ridge #b642f4;
+    border: 15px ridge #ff6600;
 }
 .section-two button{
                 padding: 25px;
                 font-size: 24px;
-                background-color: #b642f4;  
+                background-color: #ff6600;  
 }
 
 /* Example Photo Gallery styles */
@@ -112,7 +112,7 @@ ul.example-photos li {
                 }
                 button:hover {
                     font-size: 50px;
-                    color: blue;
+                    color: orange;
                 }
 html, body {
       margin: 0;
@@ -173,7 +173,7 @@ nav ul {
 }
  
 nav.black ul {
-      background: #b642f4;
+      background: #ff6600;
 }
  
 nav ul li {
@@ -233,7 +233,7 @@ nav ul li a {
  
 }
 body {
-    background: linear-gradient(to top, #b642f4 13%, #000000 70%);
+    background: linear-gradient(to bottom, #000000 27%, #ff6600 100%);
     background-repeat: no-repeat;
 }
 
