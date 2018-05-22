@@ -149,3 +149,24 @@ body {
       line-height: 30px;
         
 }
+/* MEDIA QUERIES */
+
+/* Mobile */
+@media (max-width: 635px) {
+    /* Adjusts title */
+    h1 {
+        font-size: 50px;
+        color: white;
+    }
+    /* Adjusting Feature Images */
+    .Shaun {
+        width: 300px;
+        height: 300px;
+    }
+    /*Adjusting paragraph text*/
+    p{
+        font-size: 15px;
+    }
+    .text{
+        font-size: 15px;
+    }

@@ -190,7 +190,7 @@ nav ul li a {
 .menu-icon {
       line-height: 60px;
       width: 100%;
-      background: white;
+      background: black;
       text-align: right;
       box-sizing: border-box;
       padding: 15px 24px;
@@ -209,11 +209,11 @@ nav ul li a {
  
       nav ul {
             max-height: 0px;
-            background: white;
+            background: black;
       }
  
       nav.black ul {
-            background: white;
+            background: black;
       }
  
       .showing {
@@ -270,4 +270,30 @@ body {
   background: #fffc00;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-bars:before{
+   color: white;
+}
+
+/* MEDIA QUERIES */
+
+/* Mobile */
+@media (max-width: 635px) {
+    /* Adjusts title */
+    h1 {
+        font-size: 50px;
+        color: white;
+    }
+    /* Adjusting Feature Images */
+    .example-image {
+        width: 300px;
+        height: 300px;
+    }
+     /*Adjusting paragraph text*/
+    p{
+        font-size: 15px;
+    }
+    .text{
+        font-size: 15px;
+    }
 }
