@@ -72,7 +72,8 @@
             .section-two,
             .section-three {
                 margin: 75px;
-                
+                font-size: 25px;
+                color:white;
             }
 .example-image {
     width: 300px;
