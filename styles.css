@@ -62,12 +62,12 @@
             .background-image {
                 background-image: url("background.png");
                 background-position: center;
-    background-repeat: no-repeat;
-                 margin: 0 auto;
-    text-align: center;
-    height: 350px;
-                 background-size: 400px;
-    position: relative;
+                background-repeat: no-repeat;
+                margin: 0 auto;
+                text-align: center;
+                height: 350px;
+                background-size: 400px;
+                position: relative;
             }
             .section-two,
             .section-three {
@@ -275,13 +275,18 @@ body {
    color: white;
 }
 
+.sliding-text{
+    font-size: 30px;
+        color: #ff6600;
+}
+
 /* MEDIA QUERIES */
 
 /* Mobile */
 @media (max-width: 635px) {
     /* Adjusts title */
     h1 {
-        font-size: 50px;
+        font-size: 30px;
         color: white;
     }
     /* Adjusting Feature Images */
@@ -294,6 +299,9 @@ body {
         font-size: 15px;
     }
     .text{
+        font-size: 15px;
+    }
+   .content{
         font-size: 15px;
     }
 }
