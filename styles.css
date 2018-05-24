@@ -1,36 +1,26 @@
-.container {
-    margin: 0 auto;
-    text-align: right;
-    height: 650px;
-    background-image:url('');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 500px;
-    position: relative;
-}
-
- /* <button class="contact-link">
-                     <a href="mylife.html" class="show">Submit here</a>
-                     <a href="mylife.html" class="hide">Click Now ;)</a>
-                   </button>*/
-
-
+/* TEXT */
             .container h1 {
                 color: white;
                 text-align: center;
                 font-family: "Comic Sans MS", cursive, sans-serif;
             }
+
+/* Example Photo insta button*/
             .contact-link, .insta-link {
                 padding: 25px;
                 font-size: 24px;
                 background-color: black;
             }
+
+
             /* Absolute Alignment in Hero */
             .container .content {
                position: relative;
   top: 50%;
   transform: translateY(-50%);
             }
+
+
             /* Change Button */
             button {
                 color: black;   
@@ -53,14 +43,9 @@
                     color: black;
                 }
             
-            .container p{
-                color:black;
-              text-align: left;
-                font-family: "Courier New", Courier, monospace;
-                font-size: 12
-            }
+           /* Logo image main page */
             .background-image {
-                background-image: url("background.png");
+                background-image: url("../photo folder/background.png");
                 background-position: center;
                 background-repeat: no-repeat;
                 margin: 0 auto;
@@ -69,12 +54,15 @@
                 background-size: 400px;
                 position: relative;
             }
+
+/* Example Photo Text */
             .section-two,
             .section-three {
                 margin: 75px;
                 font-size: 25px;
                 color:white;
             }
+
 .example-image {
     width: 300px;
     height: 300px;
@@ -85,6 +73,7 @@
                 font-size: 24px;
                 background-color: #ff6600;  
 }
+
 
 /* Example Photo Gallery styles */
 
@@ -99,6 +88,7 @@ ul.example-photos li {
 }
 
 
+/* Button */
  button a.hide {
                     display: none;
                 }
@@ -115,17 +105,20 @@ ul.example-photos li {
                     font-size: 50px;
                     color: orange;
                 }
+
 html, body {
       margin: 0;
       padding: 0;
       width: 100%;
 }
+
  
 body {
       font-family: "Helvetica Neue",sans-serif;
       font-weight: lighter;
     background-color: white;
 }
+
  
 header {
       width: 10%;
@@ -133,6 +126,7 @@ header {
       background: url() no-repeat 50% 50%;
       background-size: cover;
 }
+
  
 .content {
       width: 94%;
@@ -141,6 +135,7 @@ header {
       line-height: 30px;
       text-align: justify;
 }
+
  
 .logo {
       line-height: 60px;
@@ -154,11 +149,13 @@ header {
     font-family:"Comic Sans MS", cursive, sans-serif;
 }
  
+
 nav {
       position: fixed;
       width: 100%;
       line-height: 60px;
 }
+
  
 nav ul {
       line-height: 60px;
@@ -172,21 +169,25 @@ nav ul {
       padding-right: 40px;
       transition: 1s;
 }
+
  
 nav.black ul {
       background: #ff6600;
 }
+
  
 nav ul li {
       display: inline-block;
       padding: 16px 40px;;
 }
+
  
 nav ul li a {
       text-decoration: none;
       color: white;
       font-size: 16px;
 }
+
  
 .menu-icon {
       line-height: 60px;
@@ -199,7 +200,8 @@ nav ul li a {
       color: black;
       display: none;
 }
- 
+
+ /* 1 Media queire */
 @media(max-width: 786px) {
  
       .logo {

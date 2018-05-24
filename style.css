@@ -3,11 +3,13 @@ html, body {
       padding: 0;
       width: 100%;
 }
+
  
 body {
       font-family: "Helvetica Neue",sans-serif;
       font-weight: lighter;
 }
+
  
 header {
       width: 63%;
@@ -16,6 +18,7 @@ header {
      background-position: center;
     position: relative;
 }
+
  
 .content {
       width: 94%;
@@ -24,6 +27,7 @@ header {
       line-height: 30px;
       text-align: justify;
 }
+
  
 .logo {
       line-height: 60px;
@@ -36,12 +40,14 @@ header {
       letter-spacing: 2px;
     font-family:"Comic Sans MS", cursive, sans-serif;
 }
+
  
 nav {
       position: fixed;
       width: 100%;
       line-height: 60px;
 }
+
  
 nav ul {
       line-height: 60px;
@@ -55,22 +61,26 @@ nav ul {
       padding-right: 40px;
       transition: 1s;
 }
+
  
 nav.black ul {
       background: #ff6600;
 }
+
  
 nav ul li {
       display: inline-block;
       padding: 16px 40px;;
 }
+
  
 nav ul li a {
       text-decoration: none;
       color: #fff;
       font-size: 16px;
 }
- 
+
+
 .menu-icon {
       line-height: 60px;
       width: 100%;
@@ -82,7 +92,8 @@ nav ul li a {
       color: #fff;
       display: none;
 }
- 
+
+ /*Media Quiere */
 @media(max-width: 786px) {
  
       .logo {
@@ -124,19 +135,7 @@ body {
 .message{
     color: white;
 }
-.parallax {
-    /* The image used */
-    background-image: url("img_parallax.jpg");
 
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .shaun{
     width:500px;
     height: 500px;
@@ -149,6 +148,7 @@ body {
       line-height: 30px;
         
 }
+
 /* MEDIA QUERIES */
 
 /* Mobile */
