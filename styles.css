@@ -45,7 +45,7 @@
             
            /* Logo image main page */
             .background-image {
-                background-image: url("../photo folder/background.png");
+                background-image: url("background.png");
                 background-position: center;
                 background-repeat: no-repeat;
                 margin: 0 auto;
